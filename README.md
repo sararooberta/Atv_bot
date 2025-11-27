@@ -1,7 +1,7 @@
 
 # Atividade do bot no Telegram
 
-Nosso grupo (formado por Denis, Diogo, Matheus Henrique e Sara) fez um bot no Telegram que, ao digitar o nome de uma cidade, retorna o clima.
+Nosso grupo (formado por Denis, Diogo, Matheus Henrique e Sara) fizemos um bot no Telegram que, ao digitar o nome de uma cidade, retorna o clima.
 
 **Link para a conversa do Telegram:** t.me/climaThiagobot
 
@@ -11,7 +11,7 @@ Para começar, digite `/start`.
 
 ## Código em Python utilizado:
 
-```python
+``` {python}
 import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
